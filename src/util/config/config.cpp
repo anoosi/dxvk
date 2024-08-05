@@ -1438,7 +1438,7 @@ namespace dxvk {
     std::string confLine = env::getEnvVar("DXVK_CONFIG");
 
     if (filePath == "")
-      filePath = "dxvk.conf";
+      filePath = "AnasIQ.txt";
 
     // Open the file if it exists
     std::ifstream stream(str::topath(filePath.c_str()).c_str());
