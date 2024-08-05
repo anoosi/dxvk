@@ -998,11 +998,13 @@ namespace dxvk {
 
     /* Generals Zero Hour DXVK                    */
     { R"(\\generals\.exe$)" , {{
+      { "dxvk.hud",         "fps,version,compiler" },
       { "d3d9.memoryTrackTest",             "True" },
       { "d3d9.textureMemory",               "2048" },
     }} },
     /* Generals Zero Hour Steam DXVK              */
     { R"(\\game\.dat$)" , {{
+      { "dxvk.hud",         "fps,version,compiler" },
       { "d3d9.memoryTrackTest",             "True" },
       { "d3d9.textureMemory",               "2048" },
     }} },
